@@ -159,7 +159,7 @@ async function setupContracts(createPair = true, fee = null) {
 const runOnce = (runOnceFee) => describe(`Test to Run Once. fee: ${runOnceFee}}`, function () {
 
     describe("Calculate the FraxswapPair code hash", function () {
-        it("Output the Init Hash", async function () {
+        it("test001", async function () {
             console.log('hello world')
             // do this twice because sometimes the hash differs depending on which solidity compiler is used
 
@@ -172,6 +172,11 @@ const runOnce = (runOnceFee) => describe(`Test to Run Once. fee: ${runOnceFee}}`
             // const ContractInitHash = await ethers.getContractFactory("ComputeUniswapV2PairInitHash");
             // const contractInitHash = await (await ContractInitHash.deploy()).deployed();
             // console.log(`getInitHash: ${await contractInitHash.getInitHash()}`);
+
+        });
+
+        it("test002", async function () {
+            console.log('hello world')
 
         });
     });
