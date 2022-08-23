@@ -45,6 +45,7 @@
     "flashbots": "^1.0.0",
     "ganache-core": "^2.13.2",
     "hardhat-contract-sizer": "^2.5.1",
+    "hardhat-gas-reporter": "^1.0.8",
     "hardhat-spdx-license-identifier": "^2.0.3",
     "https": "^1.0.0",
     "mathjs": "^10.4.3",
